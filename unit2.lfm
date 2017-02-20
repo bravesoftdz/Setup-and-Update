@@ -1,12 +1,13 @@
 object Form2: TForm2
-  Left = 1295
+  Left = 1399
   Height = 392
-  Top = 146
+  Top = 471
   Width = 605
   Caption = 'Setup/Update'
   ClientHeight = 392
   ClientWidth = 605
   OnCreate = FormCreate
+  Position = poScreenCenter
   LCLVersion = '1.6.2.0'
   object CheckListBox1: TCheckListBox
     Left = 120
@@ -37,30 +38,11 @@ object Form2: TForm2
     TabOrder = 1
     object CheckBox1: TCheckBox
       Left = 6
-      Height = 21
+      Height = 63
       Top = 6
       Width = 327
       Caption = 'Portable App'
       TabOrder = 0
-    end
-    object CheckBox2: TCheckBox
-      Left = 6
-      Height = 21
-      Top = 27
-      Width = 327
-      Caption = 'Quellcode Anzeigen'
-      TabOrder = 1
-    end
-    object CheckBox3: TCheckBox
-      Cursor = crCross
-      Left = 6
-      Height = 21
-      Hint = 'Beta only'
-      Top = 48
-      Width = 327
-      Caption = 'In Windows Programme Instaliren'
-      Enabled = False
-      TabOrder = 2
     end
   end
   object Exit_Button: TButton
